@@ -1,5 +1,5 @@
 body{
-    overflow-x: hidden;
+    background-color: white;
   }
   .container-full{
     background-image: url("");
@@ -15,11 +15,10 @@ body{
   background-image: url("images/assets/backgrounds/h_img.jpg");
   background-size: cover;
   text-align: center;
+  color: white;
   }
   
   .MouseClick{
-    padding-top: 15%;
-    padding-bottom: 1%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -45,120 +44,16 @@ body{
     background-image: url("images/assets/backgrounds/s_image.jpg");
     color: white;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 7%;
     background-size: cover;
+    font-size: small;
+    font-family: 'Yantramanav' ,sans-serif;
   
   }
   .hide{
       display: none;
   }
-  #whatWeDo h2{
-    padding-top: 3%;
-  }
-  .overlay{
-    background-color: black;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 90%;
-  }
-
-.portfolio h4{
-    margin-top: 4%
-}
-.portfolio-row1, .portfolio-row2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .portfolio-row2 {
-    margin-top: 50px;
-    margin-bottom: 70px;
-  }
-  .portfolio-img {
-    height: 150px;
-    width: 190px;
-  }
-  
-  .portfolio-row1:hover img, .portfolio-row1:active img, .portfolio-row2:hover img, .portfolio-row2:active img {
-    opacity: 1;
-  }
-  
-  .portfolio-row1:hover img:hover, .portfolio-row1:active img:active, .portfolio-row2:hover img:hover, .portfolio-row2:active img:active {
-    opacity: 0.1;
-  }
 
 
-
-  h5{
-    background-image: url("images/assets/backgrounds/c_image.jpg");
-    background-size: cover;
-    display: cover;
-    padding: 10%;
-  }
-  form#contact{
-      background-color: rgba(0,0,0,0);
-  }
-  .input[type=text]{
-    background: transparent;
-    color: white;
-  
-  }
-  #form input{
-    width:35%;
-    background-color: transparent;
-  
-  }
-  #name{
-    margin-left: 12%;
-    color :white;
-  }
-  #email{
-    margin-left:5%;
-    color: white;
-  }
-  #form textarea{
-    background-color: transparent;
-    color: white;
-  }
-  #email::placeholder{
-    color: white;
-  }
-  
-  #name::placeholder{
-    color: white;
-  }
-  textarea::placeholder{
-    color: white;
-    background: transparent;
-  }
-  .icon{
-    padding-left: 20px;
-  }
-  #design{
-    display: none;
-    text-align: center;
-  }
-  #development{
-    display: none;
-  }
-  #product-management{
-    display: none;
-  }
-  
-
-  .work1-overlay,.work2-overlay,.work3-overlay,.work4-overlay,.work5-overlay,.work6-overlay,.work7-overlay,.work8-overlay {
-      display: none;
-      background-color: black;
-      opacity: 0.7;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 90%;
-  
-  }
   .Hover {
       opacity: 0;
       background-color: rgba(255,255,255,0,623);
