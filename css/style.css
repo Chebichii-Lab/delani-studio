@@ -1,6 +1,9 @@
 body{
     background-color: white;
   }
+  h4{
+    font-family: 'Merriweather', serif;
+  }
   .container-full{
     background-image: url("");
     background-position: center;
