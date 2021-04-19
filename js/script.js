@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $("#design").click(function(){
-    $("#design-showing").toggle();
+    $("#design-showing").toggle(1);
     $(".hide-design-image").toggle();
   })
 
@@ -11,7 +11,7 @@ $(document).ready(function() {
   })
 
   $("#productManagement").click(function(){
-    $("#product-management-showing").toggle();
+    $("#product-management-showing").toggle(10);
     $(".hide-product-management").toggle();
   })
 
