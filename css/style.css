@@ -54,6 +54,25 @@ body{
   .hide{
       display: none;
   }
+
+
+  /* #mc_embeded_signup {
+    background-color: transparent;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+    font: 14px Helvetica, Arial, sans-serif;
+  }
+  .mc-field-group input {
+    background-color: transparent;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid white;
+  } */
+
+
   .portfolio-row{
     display: flex;
     flex-direction: row;
