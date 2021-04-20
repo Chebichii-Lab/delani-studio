@@ -1,5 +1,4 @@
-# project name
-Delani Studio
+# DELANI STUDIO
 ## Author
 Natasha Serem
 ### Description
