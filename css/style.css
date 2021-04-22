@@ -12,36 +12,37 @@ body{
     /* padding-top:25%; */
     text-decoration-color: white;
   }
-  .landing{
+  .back{
   padding-top: 20%;
   background-image: url("images/assets/backgrounds/h_img.jpg");
   background-size: cover;
   text-align: center;
   color: white;
   }
+  .back h1{
+    margin-top: 15px;
+    font-size: 40px;
+}    
+.back p{
+    margin-top: 10px;
+    font-size: 120%;
+}
   
-  .MouseClick{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+  .mouse{
+    margin-top: 80px;
   }
-  .Dlogo{
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
+  .logo{
+      margin-top: 10px;
   }
 
-  .aboutUs{
+  .writing{
   padding-top:5%;
   padding-bottom: 3%;
   text-align: center;
   font-family: 'Yantramanav' ,sans-serif;
   font-size: 16px;
   }
-  .landing h1{
-    font-weight: 600;
-    font-size: 45px;
-  }
+  
   .services{
     background-image: url("images/assets/backgrounds/s_image.jpg");
     color: white;
