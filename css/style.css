@@ -49,10 +49,14 @@ body{
     background-size: cover;
     font-size: small;
     font-family: 'Yantramanav' ,sans-serif;
+    position: relative;
   
   }
-  .hide{
-      display: none;
+  #dev-content{
+    display: none;
+  }
+  #prod-content{
+    display: none;
   }
 
 
@@ -73,10 +77,9 @@ body{
   } */
 
 
-  .portfolio-row{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  .portfolio{
+    margin-left: 10px;
+    margin-right: 15px;
   }
   .row{
     padding: 2%;
