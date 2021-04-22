@@ -1,27 +1,89 @@
 $(document).ready(function() {
-
-  $("#design").click(function(){
-    $("#design-showing").toggle(1);
-    $(".hide-design-image").toggle();
+    $("div#design").click(function(){
+    $("div#content").toggle();
+    $("div#design").toggle();
   })
 
-  $("#development").click(function(){
-    $("#development-showing").toggle();
-    $(".hide-development-image").toggle();
+    $("div#content").click(function(){
+    $("div#content").toggle();
+    $("div#design").toggle();
   })
 
-  $("#productManagement").click(function(){
-    $("#product-management-showing").toggle(10);
-    $(".hide-product-management").toggle();
+  $("div#dev").click(function(){
+    $("div#dev-content").toogle();
+    $("div#dev").toogle();
+  })
+  $("div#dev-content").click(function(){
+    $("div#dev-content").toggle();
+    $("div#dev").toggle();
   })
 
-  //Insert white box upo hover
-  $(".Hover").hover(function(){
-    $(this).animate({opacity:'1'});
-  },
-  function(){
-    $(this).animate({opacity:'0'});
+  $("div#product").click(function(){
+    $("div#product-content").toggle();
+    $("div#product").toggle();
   })
+  $("div#product-content").click(function(){
+    $("div#product-content").toogle();
+    $("div#product").toggle();
+  })
+
+  $("#col-1").hover(function() {
+    $("#text1").fadeTo("slow",1);
+    $("#work1").fadeTo("slow",0.4);
+    },function() {
+      $("#text1").fadeTo("slow",0);
+      $("#photo1").fadeTo("slow",1);
+    });
+    $("#col-2").hover(function() {
+      $("#text2").fadeTo("slow",1);
+      $("#work2").fadeTo("slow",0.4);
+    },function() {
+      $("#text2").fadeTo("slow",0);
+      $("work2").fadeTo("slow",1);
+    });
+    $("#col-3").hover(function() {
+      $("#text3").fadeTo("slow",1);
+      $("#work3").fadeTo("slow",0.4);
+    },function() {
+      $("#text3").fadeTo("slow",0);
+      $("work3").fadeTo("slow",1);
+    });
+    $("#col-4").hover(function() {
+      $("#text4").fadeTo("slow",1);
+      $("#work4").fadeTo("slow",0.4);
+    },function() {
+      $("#text4").fadeTo("slow",0);
+      $("work4").fadeTo("slow",1);
+    });
+    $("#col-5").hover(function() {
+      $("#text5").fadeTo("slow",1);
+      $("#work5").fadeTo("slow",0.4);
+    },function() {
+      $("#text5").fadeTo("slow",0);
+      $("work5").fadeTo("slow",1);
+    });
+    $("#col-6").hover(function() {
+      $("#text6").fadeTo("slow",1);
+      $("#work6").fadeTo("slow",0.4);
+    },function() {
+      $("#text6").fadeTo("slow",0);
+      $("work6").fadeTo("slow",1);
+    });
+    $("#col-7").hover(function() {
+      $("#text7").fadeTo("slow",1);
+      $("#work7").fadeTo("slow",0.4);
+    },function() {
+      $("#text7").fadeTo("slow",0);
+      $("work7").fadeTo("slow",1);
+    });
+    $("#col-8").hover(function() {
+      $("#text8").fadeTo("slow",1);
+      $("#work8").fadeTo("slow",0.4);
+    },function() {
+      $("#text8").fadeTo("slow",0);
+      $("work8").fadeTo("slow",1);
+    });
+    
   $('.submit').click(function () {
     var Name = $('#mce-FNAME').val();
     var Email = $('#mce-EMAIL').val();
