@@ -60,6 +60,8 @@ body{
     font-size: small;
     font-family: 'Yantramanav' ,sans-serif;
     position: relative;
+    height: 240px;
+    padding: 85px;
   
   }
   #dev-content{
