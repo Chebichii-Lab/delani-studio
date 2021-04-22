@@ -42,7 +42,16 @@ body{
   font-family: 'Yantramanav' ,sans-serif;
   font-size: 16px;
   }
-  
+
+  .what{
+    text-align: center;
+  }
+  .col-md-4 {
+    text-align: center;
+}
+#content {
+    display: none;
+}
   .services{
     background-image: url("images/assets/backgrounds/s_image.jpg");
     color: white;
@@ -58,6 +67,9 @@ body{
   }
   #prod-content{
     display: none;
+  }
+  h5{
+    text-align: center;
   }
 
 
