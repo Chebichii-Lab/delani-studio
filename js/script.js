@@ -10,8 +10,8 @@ $(document).ready(function() {
   })
 
   $("div#dev").click(function(){
-    $("div#dev-content").toogle();
-    $("div#dev").toogle();
+    $("div#dev-content").toggle();
+    $("div#dev").toggle();
   })
   $("div#dev-content").click(function(){
     $("div#dev-content").toggle();
@@ -19,11 +19,11 @@ $(document).ready(function() {
   })
 
   $("div#product").click(function(){
-    $("div#product-content").toggle();
+    $("div#prod-content").toggle();
     $("div#product").toggle();
   })
-  $("div#product-content").click(function(){
-    $("div#product-content").toogle();
+  $("div#prod-content").click(function(){
+    $("div#prod-content").toggle();
     $("div#product").toggle();
   })
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
       $("#text8").fadeTo("slow",0);
       $("work8").fadeTo("slow",1);
     });
-    
+
   $('.submit').click(function () {
     var Name = $('#mce-FNAME').val();
     var Email = $('#mce-EMAIL').val();
